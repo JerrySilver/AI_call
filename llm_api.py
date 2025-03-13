@@ -14,7 +14,7 @@ MODEL_NAME = "Qwen/Qwen2.5-72B-Instruct"
 
 client = OpenAI(
     base_url=OPENAI_API_URL,
-    api_key='sk-oaqamdkbxlvrjhvfpnhlelukcowakdaxolkoahvrwthlznua',
+    api_key='',
 )
 
 # 预编译正则表达式：用于去除 Markdown 中的标题、列表、加粗等语法
